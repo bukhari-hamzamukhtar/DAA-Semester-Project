@@ -6,9 +6,9 @@ Here is the core logic for our baseline Apriori. You don't have to mess with the
 
 ## Dataset Setup
 
-Just a heads-up on the data files. The `chess.dat` and `connect.dat` files are already chilling in the `data/` folder, so you are good to go there. 
+Just a heads-up on the data files. The `chess.dat` and `connect.dat` files are already there in the `data/` folder. 
 
-However, `accidents.dat` was way too huge to upload directly. So, in the `data/` folder, I put an `accidents.txt` file instead. You just need to open that text file, grab the Google Drive link inside, download the actual `.dat` file, and drop it into the `data/` folder. Make sure you do this before running your benchmarks or the script will definitely crash trying to find it.
+However, `accidents.dat` was way too huge to upload directly. So, in the `data/` folder, I put an `accidents.txt` file instead. You just need to open that text file, grab the Google Drive link inside, download the actual `.dat` file, and drop it into the `data/` folder. Make sure you do this before running your benchmarks.
 
 ## How to Call the Code
 
