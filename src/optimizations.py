@@ -1,3 +1,4 @@
+# PLEASE USE COMMENTS AT ALMOST EACH STEP AND FORMAT THEM JUST AS I DID!!! ;(
 import time
 import tracemalloc
 from apriori import get_itemset_occurrences, apriori_gen
