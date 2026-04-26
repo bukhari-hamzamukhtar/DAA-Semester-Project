@@ -12,10 +12,11 @@ def build_vertical_db(transactions):
         for item in transaction:
         # check each item inside the transaction
 
-            if item not in vertical_db:
-                vertical_db[item] = set()
+            key = frozenset([item])
+            if key not in vertical_db:
+                vertical_db[key] = set()
             
-            vertical_db[item].add(tid)
+            vertical_db[key].add(tid)
             # add the transaction id to the item's set
 
     return vertical_db
