@@ -4,6 +4,12 @@
 
 Here is the core logic for our baseline Apriori. You don't have to mess with the internal functions. Just import the benchmarking wrapper to get what you need.
 
+## Dataset Setup
+
+Just a heads-up on the data files. The `chess.dat` and `connect.dat` files are already chilling in the `data/` folder, so you are good to go there. 
+
+However, `accidents.dat` was way too huge to upload directly. So, in the `data/` folder, I put an `accidents.txt` file instead. You just need to open that text file, grab the Google Drive link inside, download the actual `.dat` file, and drop it into the `data/` folder. Make sure you do this before running your benchmarks or the script will definitely crash trying to find it.
+
 ## How to Call the Code
 
 To run the baseline and get the averaged stats, just drop this into your script:
