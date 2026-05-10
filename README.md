@@ -37,7 +37,7 @@ DAA-Semester-Project/
 │   └── fig4_itemsets.png   # Frequent itemsets discovered — Chess
 │
 ├── paper/
-│   └── ieee_report_final.html  # Final IEEE-format report (print to PDF for submission)
+│   └── report.pdf  # Final IEEE-format report
 │
 └── README.md
 ```
