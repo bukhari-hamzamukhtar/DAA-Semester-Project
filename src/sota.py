@@ -1,9 +1,9 @@
 # sota.py
 # Algorithm: dECLAT — Diffset-based Equivalence Class Transformation
-# Based on: Tayebi, M.A., El Majdoubi, M., Ezziyyani, M., Ezziyyani, A., &
-# Al Achhab, M. (2022). "An Efficient Spark-Based Hybrid Frequent Itemset
-# Mining Algorithm for Big Data." MDPI Data, Vol. 7, No. 1, Article 11.
-# DOI: 10.3390/data7010011
+# Based on: M. R. Al-Bana, M. S. Farhan, and N. A. Othman, "An efficient 
+# Spark-based hybrid frequent itemset  Mining Algorithm for Big Data." 
+# MDPI Data, vol. 7, no. 1, Art. no. 11,
+# Jan. 2022, doi: 10.3390/data7010011.
 #
 # Why this paper: SHFIM (2022) is built directly on the vertical diffset
 # representation — it uses diffsets (not tidsets) for support counting in its
